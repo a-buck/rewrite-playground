@@ -1,8 +1,15 @@
+# above doc comment
 ---
-apiVersion: "pubsub.cnrm.cloud.google.com/v1beta1"
-kind: "PubSubTopic"
-metadata:
-  name: "my-test-topic"
-  namespace: "my-namespace"
-spec:
-  resourceID: "my-test-topic"
+# above comment for apiVersion
+# second line of above comment for api version
+apiVersion: "pubsub.cnrm.cloud.google.com/v1beta1" # same line apiVersion comment
+# above items
+items: # items same line
+  # item1 above
+  - item1 # item1 same line
+  - item2
+# above line metadata comment
+metadata: # same line metadata comment
+  name: "my-test"
+  namespace: "my-namespace" # same line namespace comment
+# bottom of doc comment
